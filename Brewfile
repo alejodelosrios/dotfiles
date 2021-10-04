@@ -13,7 +13,7 @@ brew "grep"
 brew "ffmpeg"
 brew "gh"
 brew "git"
-brew  "mas" # Mac App Store manager
+brew "mas" # Mac App Store manager
 brew "gnupg"
 brew "httpie"
 brew "hub"

@@ -5,6 +5,7 @@ echo "Setting up your Mac..."
 # Check for Oh My Zshnd install if we don't have it
 if test ! $(which omz); then
       /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+      git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 fi
 
 # Check for Homebrewnd install if we don't have it
@@ -42,8 +43,8 @@ mkdir $HOME/Sites/laravel
 sh clone.sh
 
 #Removes .zshrc from $HOME (if it exists)nd symlinks the .zshrc file from the .dotfiles
-rm -rf $HOME/.zshrc
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+#rm -rf $HOME/.zshrc
+#ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/Mackup/.mackup.cfg $HOME/.mackup.cfg
