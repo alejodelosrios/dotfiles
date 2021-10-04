@@ -4,12 +4,13 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/bundle"
 tap "nicoverbruggen/homebrew-cask"
+tap "cjbassi/gotop"
 
 # Binaries
 brew "bash" # Latest Bash version
 brew "coreutils" # Those that come with macOSre outdated
 brew "grep"
-#brew "ffmpeg"
+brew "ffmpeg"
 brew "gh"
 brew "git"
 brew  "mas" # Mac App Store manager
@@ -22,6 +23,9 @@ brew "svn"
 brew "trash" # Manage the Trash bin
 brew "tree" # List directories in tree structure
 brew "zlib" # Needed for Memcached
+brew "gotop"
+brew "cmus"
+
 
 # Spatie Medialibrary
 brew "jpegoptim"
