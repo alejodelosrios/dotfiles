@@ -11,5 +11,5 @@ LARAVEL=$SITES/laravel
 
 #Laravel
 git clone git@bitbucket.org:alejodelosrios/medicalsoft.git $LARAVEL/medicalsoft
-git clone git@bitbucket.org:alejodelosrios/productpage.git $LARAVEL/productpage   documentation
+git clone git@bitbucket.org:alejodelosrios/productpage.git $LARAVEL/productpage
 git clone git@bitbucket.org:alejodelosrios/documentation.git $LARAVEL/documentation
